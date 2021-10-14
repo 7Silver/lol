@@ -3,14 +3,13 @@ Game.cookies = Game.cookiesEarned + 99999999999999999999999999999999999999999999
 Game.cookies = Game.cookiesEarned + Infinity
 Game.Objects['Farm'].minigame.onRuinTheFun;
 Game.Objects['Temple'].minigame.swaps = 3;
-Game.gainLumps = 999999999999999999999999999999999;
+Game.gainLumps = Infinity;
 Game.Achievements["Cheated cookies taste awful"].won=0;
 Game.ObjectsById.forEach(function (e) {
     e.basePrice = 0;
     e.refresh();
 });
 Game.storeToRebuild = 1;
-Game.addClass("elderWrath");
 
   
   
