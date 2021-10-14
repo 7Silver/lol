@@ -10,7 +10,7 @@ Game.ObjectsById.forEach(function (e) {
     e.refresh();
 });
 Game.storeToRebuild = 1;
-
+Game.addClass("elderWrath");
 
   
   
