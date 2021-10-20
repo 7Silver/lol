@@ -1,6 +1,6 @@
 lol = function(){
 Game.cookies = Game.cookiesEarned + 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
-Game.lumps = 90;
+Game.lumps = Game.lumpsEarned + 90;
 Game.RuinTheFun();
   
   
